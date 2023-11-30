@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+        *{margin: 0;padding: 0;}
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #FAFAFA;
+            padding: 0 15px 15px 15px;
+        }
+
+        .card{
+            height: auto; width: 95%;
+            padding: 12px;
+            background-color: white;
+            box-shadow: 0 0px 10px -7px;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 15px 0 0 0;
+        }
+
+
+        .profileImage{
+            height: 180px; width: 180px;
+            border-radius: 50%;
+            box-shadow: 0 5px 10px -5px;
+        }
+
+        .heading{
+            font-family: 'Merriweather';
+        }
+        .para{
+            font-family: 'Roboto Condensed';
+        }
+
+        .profileButtons {
+            background-color: #4CAF50;
+            width: auto;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: flex;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+            font-family: 'Roboto COndensed';
+            transition: background-color 0.3s;
+            margin-top: 15px;
+            }
+
+            .profileButtons:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+            }
+
+            .profileButtons:active {
+            background-color: #1f6690; /* Even darker blue when clicked */
+            }
+
+            .sections{
+                height: auto; width: 100%;
+                display: flex;
+                align-items: center;
+                margin-top: 15px;
+            }
+
+
+            .circle{
+                height: 30px; width: 30px;
+                background-color: #4CAF50;
+                padding: 10px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .info_sections{
+                margin-left: 15px;
+            }
+
+            .material-symbols-outlined{
+                color: white;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .fa {
+                padding: 20px;
+                font-size: 27px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+            }
+            .fa-instagram, .fa-linkedin {
+                color: white;
+            }
+    </style>
+
+    <title>Om Jewels</title>
+</head>
+<body>
+    
+    <div class="card">
+
+        <img class="profileImage" src="omjewels.jpeg" alt="Image of Manav Sarin">
+        <h3 class="heading" style="margin-top: 15px">Om Jewels</h3>
+        <p class="para" style="text-align: center;">Jeweelery Boutique</p>
+        <a href="omjewels.vcf" style="text-decoration: none; "><button class="profileButtons">SAVE CONTACT</button></a>
+        
+        <a href="tel:09004038688" style="text-decoration: none; color: black; display: contents;">
+            <div class="sections">
+                
+                <div class="circle">
+                    <span class="material-symbols-outlined">phone</span>  
+                </div>
+
+                <div class="info_sections">
+                    <div class="para" style="font-size: 18px;"><b>+91 09004038688</b></div>
+                    <div class="para" style="color: grey;">Phone</div>
+                </div>
+            </div>
+        </a>
+
+        <a href="mailto:omjewels.oj@gmail.com" style="text-decoration: none; color: black; display: contents;">
+            <div class="sections">
+                
+                <div class="circle">
+                    <span class="material-symbols-outlined">email</span>  
+                </div>
+
+                <div class="info_sections">
+                    <div class="para" style="font-size: 18px;"><b>omjewels.oj@gmail.com</b></div>
+                    <div class="para" style="color: grey;">Email</div>
+                </div>
+            </div>
+        </a>
+        
+
+        <a href="https://instagram.com/omjewels.oj?igshid=MTk0NTkyODZkYg==" style="text-decoration: none; color: black; display: contents;">
+            <div class="sections">
+                <div class="circle">
+                    <span class="fa fa-instagram"></span>
+                </div>
+
+                <div class="info_sections">
+                    <p class="para" style="font-size: 18px;"><b>@omjewels.oj</b></p>
+                    <p class="para" style="color: grey;">Instagram</p>
+                </div>
+            </div>
+        </a>
+
+
+
+    </div>
+
+    <!-- <a href="optimus.pdf" style="display: contents; color: black;text-decoration: none;">
+        <div class="card" style="font-family: 'Roboto Condensed';">
+            <h3>DOWNLOAD BROCHURE</h3>
+        </div>
+    </a> -->
+
+</body>
+</html>
